@@ -1,0 +1,6 @@
+corre el ejemplo así:
+1) abre un terminal de comandos de Ubuntu y envia el comando
+python3 Ejemplo
+.py
+
+2) como resultado verás el diagrama de ojo de una señal generada como demo dentro de Ejemplo.py
