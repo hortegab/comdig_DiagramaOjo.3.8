@@ -33,7 +33,7 @@ demo_data(num_symbols, Sps): es una función que puedes usar desde python para g
 eyediagram(y, Ns*Sps, offset, graptool): grafica el diagrama de ojo de "y". A continuación, los parámetros que restan por explicar. Ns es el número simbolos que quisieras ver en un ojo;  offset: es un parámetro para desplazar el ojo en offset muestras; graptool: es un parámetro que el tipo de herramienta gráfica a usar entre las que se tienen en python. Esto se verá mejor en el ejemplo de abajo cuando se usa matplolib, pero la idea que que se puedan usar otras.
 
 # Ejemplo de uso y de prueba con código en python3:
-Un ejemplo de código en Pyhton3 se tiene en la carpeta Ejemplos/Para Python3/Ejemplo.py
+Un ejemplo de código en Pyhton3 se tiene en la carpeta Ejemplos/Para Python3/Ejemplo1.py
 
 # Ejemplo de uso y de prueba con GNU Radio 3.8.1:
 Hemos incluido un ejemplo para GNU Radio v 3.8.1, pero requiere que hayas concluido las instalación del OOT E3TRadio. Se encuentra en la carpeta Ejemplos/Para GNU Radio/Ejemplo2.grc. 
