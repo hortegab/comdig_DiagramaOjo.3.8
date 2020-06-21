@@ -12,11 +12,13 @@
 - Se supone que usted está siguiendo las instrucciones de instalación del OOT E3TRadio para GNU Radio 3.8 que aparecen en https://github.com/hortegab/comdig_Lib_OOT_E3TRadio.3.8. Entonces allí ya ha instalado las dependencias y no hay más prerequisitos.
 
 ## La instalación es tan simple como:
-- Entra a la carpeta "Instalación" y desde allí abre el terminal de Ubuntu, envía el comando:/n
+- Entra a la carpeta "Instalación" y desde allí abre el terminal de Ubuntu, envía el comando:
+
   sudo python3 setup.py install
 
 # PRUEBAS
 - Abre un terminal de comandos y envia lo siguiente:
+
   pip3 list
 - Revisa la lista que aparece, donde deverá figurar eyediagram
 
