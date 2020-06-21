@@ -36,7 +36,7 @@ eyediagram(y, Ns*Sps, offset, graptool): grafica el diagrama de ojo de "y". A co
 Un ejemplo de código en Pyhton3 se tiene en la carpeta Ejemplos/Para Python3/Ejemplo1.py
 
 # Ejemplo de uso y de prueba con GNU Radio 3.8.1:
-Hemos incluido un ejemplo para GNU Radio v 3.8.1, pero requiere que hayas concluido las instalación del OOT E3TRadio. Se encuentra en la carpeta Ejemplos/Para GNU Radio/Ejemplo2.grc. 
+Hemos incluido un ejemplo para GNU Radio v 3.8.1, pero requiere que hayas concluido las instalación del OOT E3TRadio. Se encuentra en la carpeta Ejemplos/Para GNU Radio/Ejemplo2.grc. Hay que tener en cuenta que la adaptación realizada hasta el momento a GNU Radio no es completamente natural ya que no se usa graficas tipo QT, por ello el Diagrama de Ojo resulta ser persistente y solo se detiene cuando se detiene el flujograma
 
 Si no estás satisfecho:
 - tenemos un manual más completo en: https://es.overleaf.com/read/mxdwhbddzjhv
