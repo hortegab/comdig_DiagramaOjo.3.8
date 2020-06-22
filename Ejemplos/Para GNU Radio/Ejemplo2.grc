@@ -325,7 +325,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1008, 228)</value>
+      <value>(368, 516)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -346,6 +346,33 @@
     <param>
       <key>samp_rate</key>
       <value>samp_rate</value>
+    </param>
+  </block>
+  <block>
+    <key>virtual_sink</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(684, 208)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>270</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>VS</value>
+    </param>
+    <param>
+      <key>stream_id</key>
+      <value>P1</value>
     </param>
   </block>
   <block>
@@ -372,7 +399,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 220)</value>
+      <value>(64, 220)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -404,7 +431,7 @@
     </param>
   </block>
   <block>
-    <key>b_binary_gen_rand</key>
+    <key>analog_random_source_x</key>
     <param>
       <key>alias</key>
       <value></value>
@@ -423,7 +450,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 136)</value>
+      <value>(64, 108)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -431,15 +458,35 @@
     </param>
     <param>
       <key>id</key>
-      <value>b_binary_gen_rand_0</value>
+      <value>analog_random_source_x_0</value>
     </param>
     <param>
       <key>maxoutbuf</key>
       <value>0</value>
     </param>
     <param>
+      <key>max</key>
+      <value>2</value>
+    </param>
+    <param>
       <key>minoutbuf</key>
       <value>0</value>
+    </param>
+    <param>
+      <key>min</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>num_samps</key>
+      <value>1000000</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>int</value>
+    </param>
+    <param>
+      <key>repeat</key>
+      <value>True</value>
     </param>
   </block>
   <block>
@@ -517,7 +564,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(808, 244)</value>
+      <value>(168, 532)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -549,6 +596,53 @@
     </param>
   </block>
   <block>
+    <key>blocks_int_to_float</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(184, 132)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_int_to_float_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>scale</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+  </block>
+  <block>
     <key>blocks_multiply_const_vxx</key>
     <param>
       <key>alias</key>
@@ -572,7 +666,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(616, 148)</value>
+      <value>(552, 148)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -619,7 +713,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(880, 244)</value>
+      <value>(240, 532)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -701,7 +795,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(232, 124)</value>
+      <value>(272, 124)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -772,7 +866,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(232, 188)</value>
+      <value>(272, 188)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -962,7 +1056,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(888, 124)</value>
+      <value>(248, 412)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -1294,6 +1388,33 @@
     </param>
   </block>
   <block>
+    <key>virtual_source</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(68, 328)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>270</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>virtual_source_0</value>
+    </param>
+    <param>
+      <key>stream_id</key>
+      <value>P1</value>
+    </param>
+  </block>
+  <block>
     <key>epy_module</key>
     <param>
       <key>alias</key>
@@ -1395,8 +1516,8 @@ def rrcos(Sps,ntaps,beta):
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>b_binary_gen_rand_0</source_block_id>
-    <sink_block_id>interp_fir_filter_xxx_0_0_0_0_0_0</sink_block_id>
+    <source_block_id>analog_random_source_x_0</source_block_id>
+    <sink_block_id>blocks_int_to_float_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
@@ -1413,14 +1534,14 @@ def rrcos(Sps,ntaps,beta):
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_multiply_const_vxx_0_0</source_block_id>
-    <sink_block_id>blocks_delay_0</sink_block_id>
+    <source_block_id>blocks_int_to_float_0</source_block_id>
+    <sink_block_id>interp_fir_filter_xxx_0_0_0_0_0_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
     <source_block_id>blocks_multiply_const_vxx_0_0</source_block_id>
-    <sink_block_id>qtgui_time_sink_x_0_0_0_0_0</sink_block_id>
+    <sink_block_id>VS</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
@@ -1441,5 +1562,17 @@ def rrcos(Sps,ntaps,beta):
     <sink_block_id>blocks_add_xx_0_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>1</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>virtual_source_0</source_block_id>
+    <sink_block_id>blocks_delay_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>virtual_source_0</source_block_id>
+    <sink_block_id>qtgui_time_sink_x_0_0_0_0_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
   </connection>
 </flow_graph>

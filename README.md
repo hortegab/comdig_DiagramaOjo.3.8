@@ -30,7 +30,7 @@
 
 ## Las instrucciones
 
-demo_data(num_symbols, Sps): es una función que puedes usar desde python para generar una señal de prueba, para ser usada con la función que se explica más abajo. num_symbols: es el número de simbolos en esa señal: Sps: es el núemro de muestras por simbolo (Samples per simbol). Por ejemplo: y=demo_data(1000, 24) llenará el vector "y" con las muestras de una señal digital demostrativa, con 1000 simbolos y cada uno de a 24 muestras.
+demo_data(num_symbols, Sps): es una función que puedes usar desde python para generar una señal de prueba, para ser usada con la función que se explica más abajo. num_symbols: es el número de siolos en esa señal: Sps: es el núemro de muestras por simbolo (Samples per simbol). Por ejemplo: y=demo_data(1000, 24) llenará el vector "y" con las muestras de una señal digital demostrativa, con 1000 simbolos y cada uno de a 24 muestras.
 
 eyediagram(y, Ns*Sps, offset, graptool): grafica el diagrama de ojo de "y". A continuación, los parámetros que restan por explicar. Ns es el número simbolos que quisieras ver en un ojo;  offset: es un parámetro para desplazar el ojo en offset muestras; graptool: es un parámetro que el tipo de herramienta gráfica a usar entre las que se tienen en python. Esto se verá mejor en el ejemplo de abajo cuando se usa matplolib, pero la idea que que se puedan usar otras.
 
